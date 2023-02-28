@@ -1,3 +1,5 @@
+n = int(input())
+cnt = {1: 0}
 def calc(x):
     if x in cnt.keys():
         return cnt[x]
@@ -11,6 +13,4 @@ def calc(x):
         cnt[x] = calc(x-1) + 1
     return cnt[x]
 
-n = int(input())
-cnt = {1: 0}
 print(calc(n))
