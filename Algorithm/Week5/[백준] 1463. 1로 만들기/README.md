@@ -9,3 +9,5 @@ def calc(cnt, x): <br>
 </t></t>        return calc(cnt+1, x // 2)<br>
 </t>    else:    # 그 외엔<br>
 </t></t>        return calc(cnt+1, x - 1)<br>
+
+![img.png](img.png)
